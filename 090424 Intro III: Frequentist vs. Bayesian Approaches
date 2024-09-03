@@ -22,6 +22,7 @@ Exercise #1: If someone gets a positive test, is it "statistically significant" 
   So the probability of being a true positive after having tested positive would only be ~10.7%, which is abysmal when considering the "95% accuracy rate." 
 
   This would not be "statistically significant" at the p<0.05 level -- only ~10.7% of cases that test postive are true positives, thus the meaningful error rate is far above 5% (p=~0.9)
+  Additionally, statistics like this try to tell us something at the population level. While they can denote the risk a single value may be "incorrect," they cannot tell us for something for certain about a given value from the population.
 
 
 Exercise #2: What is the probability that if someone gets a positive test, that person is infected?
