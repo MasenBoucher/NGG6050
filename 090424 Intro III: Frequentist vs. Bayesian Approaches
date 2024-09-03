@@ -1,1 +1,23 @@
-##test 
+September 04, 2024
+Masen Boucher 
+
+BACKGROUND (Copied from QNC GitHub)
+
+  Let's start with a simple example, taken from:
+
+  https://en.wikipedia.org/wiki/Base_rate_fallacy#Example_1:_HIV
+
+  "Imagine running an HIV test on A SAMPLE of 1000 persons ..."
+
+  "The test has a false positive rate of 5% (0.05)..." i.e., the probability that someone who takes the test gets a POSITIVE result despite the fact that the person does NOT have HIV
+
+  "...and no false negative rate." i.e., The probability that someone who takes the test gets a NEGATIVE result despite the fact that the person DOES have HIV.
+
+
+Exercise #1: If someone gets a positive test, is it "statistically significant" at the p<0.05 level? Why or why not?
+
+
+
+
+
+Exercise #2: What is the probability that if someone gets a positive test, that person is infected?
