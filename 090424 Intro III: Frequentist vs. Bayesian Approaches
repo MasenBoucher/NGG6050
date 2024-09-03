@@ -15,8 +15,8 @@ BACKGROUND (Copied from QNC GitHub)
 Exercise #1: If someone gets a positive test, is it "statistically significant" at the p<0.05 level? Why or why not?
 
   The case of an HIV test would represent a low prevalence population -- according to the WHO, although there are at least 39.9 million people living with HIV, this only represents 0.6% of the world population.
-
-
+  
+  If running a sample of 1000 persons, the true number of positive cases would be 6 people --> 1000*0.006=6
 
 
 Exercise #2: What is the probability that if someone gets a positive test, that person is infected?
