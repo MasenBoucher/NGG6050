@@ -17,7 +17,9 @@ Exercise #1: If someone gets a positive test, is it "statistically significant" 
   The case of an HIV test would represent a low prevalence population -- according to the WHO, although there are at least 39.9 million people living with HIV, only 0.6% of the adult world population is HIV+.
   
   If running a sample of 1000 persons, the number of true positive cases would be 6 people --> 1000*(6/1000)=6
-  If the test has a false positive rate of 5%, if running a sample of 1000 persons, the number of false positive cases would be about 50 people --> 1000*((1000-6)/1000)*0.05=49.7
+  If the test has a false positive rate of 5%, if running a sample of 1000 persons, the number of false positive cases would be ~50 people --> 1000*((1000-6)/1000)*0.05=49.7
+  Thus, only 6 out of 56 positive tests would be true positives, and 50 out of 56 positive tests would be false positives. 
+  So the probability of being a true positive after having tested positive would only be ~10.7%, which is abysmal when considering the "95% accuracy rate." 
 
 
 Exercise #2: What is the probability that if someone gets a positive test, that person is infected?
