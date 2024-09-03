@@ -21,7 +21,7 @@ Exercise #1: If someone gets a positive test, is it "statistically significant" 
   Thus, only 6 out of 56 positive tests would be true positives, and 50 out of 56 positive tests would be false positives. 
   So the probability of being a true positive after having tested positive would only be ~10.7%, which is abysmal when considering the "95% accuracy rate." 
 
-  This would not be "statistically significant" at the p<0.05 level -- 
+  This would not be "statistically significant" at the p<0.05 level -- only ~10.7% of cases that test postive are true positives, thus the meaningful error rate is far above 5% (p=~0.9)
 
 
 Exercise #2: What is the probability that if someone gets a positive test, that person is infected?
