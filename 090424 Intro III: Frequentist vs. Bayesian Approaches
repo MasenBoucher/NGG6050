@@ -68,11 +68,21 @@ Exercise #2: What is the probability that if someone gets a positive test, that 
   P(Infected|Positive)=0.6/0.6475=0.92664093
 
   Assuming Infection Rate of 0.7 
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.7+0.05*0.95=0.0.7475
+  P(Infected|Positive)=0.7/0.7475=0.9387153
 
   Assuming Infection Rate of 0.8
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.8+0.05*0.95=0.0.8475
+  P(Infected|Positive)=0.8/0.8475=0.9439528
 
   Assuming Infection Rate of 0.9
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.7+0.05*0.95=0.0.7475
+  P(Infected|Positive)=0.7/0.7475=0.9387153
 
   Assuming Infection Rate of 1.0
-
-  Although it was obvious with Exercise #1 that the probability of a positive test translating to an actual infection is affected by the base rate of actual infection. Comparing...
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.7+0.05*0.95=0.0.7475
+  P(Infected|Positive)=0.7/0.7475=0.9387153
