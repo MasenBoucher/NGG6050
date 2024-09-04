@@ -27,3 +27,16 @@ Exercise #1: If someone gets a positive test, is it "statistically significant" 
 
 Exercise #2: What is the probability that if someone gets a positive test, that person is infected?
   P(Infected|Positive)=((P(Positive|Infected)*P(Infected))/P(Positive)
+
+  Assuming Infection Rate of 0 
+
+  Assuming Infection Rate of 0.1 
+
+  Assuming Infection Rate of 0.2 
+
+  Assuming Infection Rate of 0.3
+
+  Assuming Infection Rate of 0.4
+
+  Assuming Infection Rate of 0.5 
+
