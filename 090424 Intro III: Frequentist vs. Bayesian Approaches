@@ -30,6 +30,7 @@ Exercise #2: What is the probability that if someone gets a positive test, that 
   P(Positive)=((P(Positive|Infected)*P(Infected))/P(Infected|Positive)
   P(Positive|NotInfected)=0.5
   P(NotInfected)=1-P(Positive|NotInfected)=0.95
+  P(Positive)=P(Infected)+0.05
 
   Assuming Infection Rate of 0 
   P(Positive)=((P(Positive|Infected)*P(Infected))/P(Infected|Positive)
@@ -44,7 +45,7 @@ Exercise #2: What is the probability that if someone gets a positive test, that 
   Assuming Infection Rate of 0.2 
   P(Infected|Positive)=((P(Positive|Infected)*P(Infected))/P(Positive)
   P(Infected|Positive)=((P(0.05|0.2)*P(0.2))/P(0.05)
-  P(Infected|Positive)=
+  P(Positive)=(P(Infected)+0.05)*0.95
 
   Assuming Infection Rate of 0.3
 
