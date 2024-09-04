@@ -48,11 +48,19 @@ Exercise #2: What is the probability that if someone gets a positive test, that 
   P(Infected|Positive)=0.2/0.2475=0.80808081
 
   Assuming Infection Rate of 0.3
-
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.3+0.05*0.95=0.0.3475
+  P(Infected|Positive)=0.3/0.3475=0.86330935
 
   Assuming Infection Rate of 0.4
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.4+0.05*0.95=0.0.4475
+  P(Infected|Positive)=0.4/0.4475=0.89385475
 
   Assuming Infection Rate of 0.5 
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.5+0.05*0.95=0.0.5475
+  P(Infected|Positive)=0.5/0.5475=0.91324201
 
   Assuming Infection Rate of 0.6 
 
