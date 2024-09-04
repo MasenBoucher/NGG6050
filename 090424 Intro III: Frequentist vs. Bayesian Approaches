@@ -30,27 +30,25 @@ Exercise #2: What is the probability that if someone gets a positive test, that 
   P(Positive)=((P(Positive|Infected)*P(Infected))/P(Infected|Positive)
   P(Positive|NotInfected)=0.5
   P(NotInfected)=1-P(Positive|NotInfected)=0.95
-  P(Positive)=(P(Infected)+0.05)*0.95
+  P(Positive)=P(Infected)+0.05*0.95
 
   Assuming Infection Rate of 0 
-  P(Positive)=(P(Infected)+0.05)*0.95
-  P(Positive)=(0+0.05)*0.95=0.0475
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0+0.05*0.95=0.0475
   P(Infected|Positive)=0/0.0475=0
 
   Assuming Infection Rate of 0.1 
-  P(Positive)=(P(Infected)+0.05)*0.95
-  P(Positive)=(0.1+0.05)*0.95=0.1425
-  P(Infected|Positive)=0.1/0.1425=0.70175
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.1+0.05*0.95=0.1475
+  P(Infected|Positive)=0.1/0.1475=0.6779661
 
   Assuming Infection Rate of 0.2 
-  P(Positive)=(P(Infected)+0.05)*0.95
-  P(Positive)=(0.2+0.05)*0.95=0.2375
-  P(Infected|Positive)=0.2/0.2375=0.8421
+  P(Positive)=P(Infected)+0.05*0.95
+  P(Positive)=0.2+0.05*0.95=0.0.2475
+  P(Infected|Positive)=0.2/0.2475=0.80808081
 
   Assuming Infection Rate of 0.3
-  P(Positive)=(P(Infected)+0.05)*0.95
-  P(Positive)=(0.3+0.05)*0.95=0.3325
-  P(Infected|Positive)=0.3/0.3325=0.9023
+
 
   Assuming Infection Rate of 0.4
 
