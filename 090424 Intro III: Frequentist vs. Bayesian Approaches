@@ -29,6 +29,9 @@ Exercise #2: What is the probability that if someone gets a positive test, that 
   P(Infected|Positive)=((P(Positive|Infected)*P(Infected))/P(Positive)
 
   Assuming Infection Rate of 0 
+  P(Infected|Positive)=((P(Positive|Infected)*P(Infected))/P(Positive)
+  P(Infected|Positive)=((P(0.05|0)*P(0))/P(0.05)
+  P(Infected|Positive)=0
 
   Assuming Infection Rate of 0.1 
 
@@ -50,3 +53,4 @@ Exercise #2: What is the probability that if someone gets a positive test, that 
 
   Assuming Infection Rate of 1.0
 
+  Although it was obvious with Exercise #1 that the probability of a positive test translating to an actual infection is affected by the base rate of actual infection. Comparing...
